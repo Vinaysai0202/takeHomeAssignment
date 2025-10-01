@@ -1,0 +1,14 @@
+# Data Analysis Dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# RAG Agent Dependencies
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.4
+torch>=2.0.0
+
+# Development Dependencies
+#ipython>=8.12.0
+#jupyter>=1.0.0

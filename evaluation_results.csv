@@ -1,0 +1,8 @@
+qid,question,answer,expected_phrase,is_correct,sources,expected_source,has_correct_source
+1,What is the return window for products purchased on WhatsApp?,"# Refund & Returns
+- Return window is 30 days from delivery.",30 days,True,"['refund_policy.md', 'release_notes.md', 'onboarding_guide.md']",refund_policy.md,True
+2,How much discount can Service Plus get on annual billing?,Service Plus can get up to 15% discount on annual billing.,15%,True,"['pricing.md', 'refund_policy.md', 'release_notes.md']",pricing.md,True
+3,Which Widget has IP67 and what Bluetooth version does it support?,Widget B has IP67 rating and supports Bluetooth 5.3.,Widget B,True,"['pricing.md', 'release_notes.md', 'product_specs_widget.md']",product_specs_widget.md,True
+4,"If login fails, what should a user try first?","If login fails, you should try to reset the password and check 2FA.",reset the password,True,"['pricing.md', 'troubleshooting.md', 'onboarding_guide.md']",troubleshooting.md,True
+5,Name one improvement in Release Notes v2.3 related to refunds.,Release Notes v2.3 includes: Improved refund flow for subscription cancellations.,Improved refund flow,True,"['refund_policy.md', 'pricing.md', 'release_notes.md']",release_notes.md,True
+6,List the steps to onboard a new user up to installation.,Steps to onboard: Create an account; Verify email and phone; Install the mobile or desktop client,Create an account,True,"['pricing.md', 'troubleshooting.md', 'onboarding_guide.md']",onboarding_guide.md,True
