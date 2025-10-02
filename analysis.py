@@ -214,7 +214,7 @@ High-priority tickets achieve {high_priority_resolution:.1f}% resolution, demons
 4. Optimize support workflows for Pricing/Billing topics (highest volume)
 """
     
-    with open('INSIGHTS.md', 'w') as f:
+    with open('INSIGHTS.md', 'w', encoding='utf-8') as f:
         f.write(insights_text)
     
     print("\n✓ Insights saved to 'INSIGHTS.md'")
@@ -234,11 +234,11 @@ def main():
     sales_df = analyze_sales_metrics(sales_df)
     support_df = analyze_support_metrics(support_df)
     
+    # Generate insights
+    generate_insights(sales_df, support_df)
     # Create visualizations
     create_visualizations(sales_df, support_df)
     
-    # Generate insights
-    generate_insights(sales_df, support_df)
     
     print("\n✅ Analysis complete!")
 
